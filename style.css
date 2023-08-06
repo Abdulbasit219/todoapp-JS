@@ -1,0 +1,102 @@
+body{
+    height: 100vh;
+    background-color: #009FE0; 
+    background-image: linear-gradient(to right, #009FE0 , #2CD441);
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.parent-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 2rem;
+}
+.inp-div{
+    background-color: #83D4E6;
+    width: 80%;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+}
+.inp-div > input{
+    width: 99%;
+    border-radius: 5px;
+    border: none;
+    height: 40px;
+    font-size: large;
+    outline: none;
+}
+.todo-div {
+    margin-top: 10px;
+    background-color: #83D4E6;
+    width: 80%;
+    padding: 10px;
+    border-radius: 5px;
+}
+.inp-div > button {
+    font-size: 1.40rem;
+    border-radius: 5px;
+    margin-left: 6px;
+    padding: 2px 15px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.inp-div > button:hover{
+    color: gray;
+}
+.todo-list {
+    background-color: white;
+}
+.todo-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 7px;
+}
+.fa-trash {
+   cursor: pointer;
+   margin-left: 15px;
+}
+.fa-pens {
+    cursor: pointer;
+    margin-left: 15px;
+}
+.fa-pens:hover {
+    color: gray;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 3px;
+}
+.fa-trash:hover{
+    color: gray;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 4px;
+}
+.icons{
+    color: black;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 25px;
+}
+.todo-task{
+    font-size: 20px;
+}
+@media screen and (min-width: 1000px) {
+    .inp-div{
+        background-color: #83D4E6;
+        width: 50%;
+        padding: 10px;
+        border-radius: 5px;
+        display: flex;
+    }
+    .todo-div {
+        margin-top: 10px;
+        background-color: #83D4E6;
+        width: 50%;
+        padding: 10px;
+        border-radius: 5px;
+    }
+}
