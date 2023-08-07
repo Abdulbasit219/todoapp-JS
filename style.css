@@ -43,6 +43,7 @@ body{
     background-color: black;
     color: white;
     cursor: pointer;
+    outline: none;
 }
 .inp-div > button:hover{
     color: gray;
@@ -86,17 +87,9 @@ body{
 }
 @media screen and (min-width: 1000px) {
     .inp-div{
-        background-color: #83D4E6;
         width: 50%;
-        padding: 10px;
-        border-radius: 5px;
-        display: flex;
     }
     .todo-div {
-        margin-top: 10px;
-        background-color: #83D4E6;
         width: 50%;
-        padding: 10px;
-        border-radius: 5px;
     }
 }
